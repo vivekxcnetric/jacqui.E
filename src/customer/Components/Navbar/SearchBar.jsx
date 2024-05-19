@@ -41,7 +41,7 @@ const SearchBar = () => {
     // { text: 'Sign In', href: '/sign-in' },
     { text: "My Profile", href: "/my-account" },
     // { text: 'Create Account', href: '/sign-up' },
-    { text: "Account Help", href: "#" },
+    { text: "My Orders", href: "/account/order" },
     { text: "Sign Out", href: "#" },
   ];
   const data = newUser?.newUser?.userId ? DROPDOWN_LINKS_auth : DROPDOWN_LINKS;
@@ -197,6 +197,7 @@ const SearchBar = () => {
           className="h-7 w-7 flex-shrink-0 text-white group-hover:text-gray-500"
           aria-hidden="true"
           style={{ color: "black" }}
+          onClick={() => navigate("/cart")}
         />
         {/* Wrapped the count in a div */}
         <div className="absolute -top-1 -right-2 bg-black rounded-full w-5 h-5 flex items-center justify-center">

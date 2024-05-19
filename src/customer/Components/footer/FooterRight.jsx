@@ -162,7 +162,7 @@ const FooterRight = memo(() => {
                       href="https://justjeans.jgl.com.au/shop/about"
                       target="_blank"
                     >
-                      About Just Jeans
+                      About Jacqui E
                     </FindAStore>
                   </Link>
                 </Item>
@@ -306,7 +306,7 @@ const FooterRight = memo(() => {
                   href="https://justjeans.jgl.com.au/shop/jj-just-shop"
                   target="_blank"
                 >
-                  JUST SHOP
+                  SHOP
                 </Stores>
               </Link>
               <List>
@@ -316,7 +316,7 @@ const FooterRight = memo(() => {
                       href="https://justjeans.jgl.com.au/shop/jj-just-shop"
                       target="_blank"
                     >
-                      About Just Shop
+                      About Jacqui E
                     </FindAStore>
                   </Link>
                 </Item>

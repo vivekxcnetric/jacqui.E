@@ -1,11 +1,33 @@
 body {
   margin: 0;
-  font-family: "Muli", sans-serif;
+  font-family: "Vidaloka", sans-serif; /* Apply Vidaloka font family to body */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /* background-color: rgb(244, 240, 240); */
   /* background-color: #15151e; */
   min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Vidaloka", sans-serif; /* Apply Vidaloka font family to headings */
+}
+
+p, /* Apply Muli font family to paragraphs and other text elements */
+span, 
+a,
+li,
+blockquote,
+input,
+textarea,
+select,
+button,
+code {
+  font-family: "Muli", sans-serif;
 }
 
 code {

@@ -3,15 +3,15 @@ import styled from "styled-components";
 
 const FooterLeft = memo(() => {
   const onLinkContainerClick = useCallback(() => {
-    window.open("https://www.facebook.com/justjeans");
+    window.open("");
   }, []);
 
   const onLinkContainer2Click = useCallback(() => {
-    window.open("https://instagram.com/justjeans");
+    window.open("");
   }, []);
 
   const onLinkContainer3Click = useCallback(() => {
-    window.open("https://www.tiktok.com/@_justjeans");
+    window.open("");
   }, []);
 
   return (
@@ -19,11 +19,13 @@ const FooterLeft = memo(() => {
       <Container8>
         <Container7>
           <Form>
-            <h3>JOIN JUST JEANS</h3>
+            <h2 style={{ fontWeight: "bold", textAlign: "left" }}>
+              Join The Jacqui E Mailing List
+            </h2>
 
-            <p>
-              Join today to receive 10% off at Just Jeans for the next month &
-              be the first to receive VIP offers and must-have denim trends.
+            <p style={{ margin: "6px 0", textAlign: "left" }}>
+              Hear about the latest fashion trends and special offers. Plus
+              receive 30% off your next full price purchase at Jacqui E!
             </p>
             <Link>
               <Join
@@ -36,7 +38,7 @@ const FooterLeft = memo(() => {
           </Form>
           <Container3>
             <Container2>
-              <GetToKnow>GET TO KNOW US</GetToKnow>
+              <GetToKnow>Follow Us</GetToKnow>
             </Container2>
             <List>
               <Itemmargin>
@@ -95,8 +97,8 @@ const Join = styled.a`
 `;
 const Link = styled.div`
   width: 100%;
-
-  background-color: #000d42;
+  margin: 15px auto;
+  background-color: black;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -263,7 +265,7 @@ const Container8 = styled.div`
   justify-content: center;
 `;
 const MarginRoot = styled.div`
-  width: 40%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   align-text: center;
@@ -273,7 +275,7 @@ const MarginRoot = styled.div`
   text-align: left;
   font-size: 14px;
   color: #000;
-  font-family: Roboto;
+  // font-family: Roboto;
   @media (max-width: 768px) {
     width: 100%;
   }
