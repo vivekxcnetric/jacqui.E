@@ -146,7 +146,7 @@ export default function Product() {
 
   const handlePrice = (e) => {
     e.preventDefault(); // Prevent form submission
-    if (min !== "" && max !== "" && min < max) {
+    if (min !== "" && max !== "") {
       setLoading(true); // Set loading to true when fetching data
       let priceData = { min, max };
       getSearchPrice(priceData)
