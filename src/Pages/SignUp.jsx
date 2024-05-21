@@ -337,10 +337,10 @@ const SignUp = () => {
                 />
               </div>
               <div>
-                {/* <label htmlFor="terms">
+                <label htmlFor="terms">
                   Sign up to JacquiE emails and receive 15% off your next full
-                  price purchase at Portmans.
-                </label> */}
+                  price purchase at JacquiE.
+                </label>
               </div>
             </div>
             {error && <ErrorText>{error}</ErrorText>}
