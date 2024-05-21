@@ -130,11 +130,11 @@ const SignUp = () => {
   };
 
   const brands = [
-    { url: "https://justjeans.jgl.com.au/", image: "/svg2.svg" },
-    { url: "https://jayjays.jgl.com.au/", image: "/svg5.svg" },
-    { url: "https://portmans.jgl.com.au/", image: "/svg3.svg" },
-    { url: "https://jacquie.jgl.com.au/", image: "/svg6.svg" },
-    { url: "https://dotti.jgl.com.au/", image: "/svg4.svg" },
+    { url: "", image: "/svg2.svg" },
+    { url: "", image: "/svg5.svg" },
+    { url: "", image: "/svg3.svg" },
+    { url: "", image: "/svg6.svg" },
+    { url: "", image: "/svg4.svg" },
   ];
   const handleBrandClick = (url) => {
     window.open(url, "_blank");
