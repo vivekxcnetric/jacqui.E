@@ -125,22 +125,12 @@ const FooterRight = memo(() => {
         <List1>
           <Item1>
             <Link>
-              <Stores
-                href="https://justjeans.jgl.com.au/shop/stores"
-                target="_blank"
-              >
-                Stores
-              </Stores>
+              <Stores href="s">Stores</Stores>
             </Link>
             <List>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/stores"
-                    target="_blank"
-                  >
-                    Find A Store
-                  </FindAStore>
+                  <FindAStore href="s">Find A Store</FindAStore>
                 </Link>
               </Item>
             </List>
@@ -148,50 +138,27 @@ const FooterRight = memo(() => {
           <Itemmargin>
             <Item1>
               <Link>
-                <Stores
-                  href="https://justjeans.jgl.com.au/shop/about"
-                  target="_blank"
-                >
-                  About Us
-                </Stores>
+                <Stores href="">About Us</Stores>
               </Link>
               <List>
                 <Item>
                   <Link>
-                    <FindAStore
-                      href="https://justjeans.jgl.com.au/shop/about"
-                      target="_blank"
-                    >
-                      About Jacqui E
-                    </FindAStore>
+                    <FindAStore href="">About Jacqui E</FindAStore>
                   </Link>
                 </Item>
                 <Item>
                   <Link>
-                    <FindAStore
-                      href="https://justjeans.jgl.com.au/shop/careers"
-                      target="_blank"
-                    >
-                      Careers
-                    </FindAStore>
+                    <FindAStore href="">Careers</FindAStore>
                   </Link>
                 </Item>
                 <Item>
                   <Link>
-                    <FindAStore
-                      href="https://justjeans.jgl.com.au/shop/terms-and-conditions"
-                      target="_blank"
-                    >{`Terms & Conditions`}</FindAStore>
+                    <FindAStore href="">{`Terms & Conditions`}</FindAStore>
                   </Link>
                 </Item>
                 <Item>
                   <Link>
-                    <FindAStore
-                      href="https://justjeans.jgl.com.au/shop/better-practices"
-                      target="_blank"
-                    >
-                      Better Practices
-                    </FindAStore>
+                    <FindAStore href="">Better Practices</FindAStore>
                   </Link>
                 </Item>
               </List>
@@ -201,56 +168,32 @@ const FooterRight = memo(() => {
         <List2>
           <Item1>
             <Link>
-              <Stores
-                href="https://help.justjeans.com.au/"
-                target="_blank"
-              >{`Help & Information`}</Stores>
+              <Stores href="">{`Help & Information`}</Stores>
             </Link>
             <List>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/delivery-information"
-                    target="_blank"
-                  >
-                    Delivery Information
-                  </FindAStore>
+                  <FindAStore href="">Delivery Information</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/track-order"
-                    target="_blank"
-                  >
-                    Track My Order
-                  </FindAStore>
+                  <FindAStore href="">Track My Order</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/returns-and-exchanges"
-                    target="_blank"
-                  >{`Returns & Exchanges`}</FindAStore>
+                  <FindAStore href="">{`Returns & Exchanges`}</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/size-guide"
-                    target="_blank"
-                  >
-                    Size Guide
-                  </FindAStore>
+                  <FindAStore href="">Size Guide</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://help.justjeans.com.au/"
-                    target="_blank"
-                  >{`Help & Contact Us`}</FindAStore>
+                  <FindAStore href="">{`Help & Contact Us`}</FindAStore>
                 </Link>
               </Item>
             </List>
@@ -259,42 +202,22 @@ const FooterRight = memo(() => {
         <List1>
           <Item1>
             <Link>
-              <Stores
-                href="https://justjeans.jgl.com.au/shop/jj-giftcards"
-                target="_blank"
-              >
-                Gift Cards
-              </Stores>
+              <Stores href="">Gift Cards</Stores>
             </Link>
             <List>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/jj-giftcards"
-                    target="_blank"
-                  >
-                    Shop Gift Cards
-                  </FindAStore>
+                  <FindAStore href="">Shop Gift Cards</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://giftcards.justjeans.com.au/CheckBalance"
-                    target="_blank"
-                  >
-                    Balance Enquiry
-                  </FindAStore>
+                  <FindAStore href="">Balance Enquiry</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://help.justjeans.com.au/hc/en-au/categories/360006519572-Gift-Cards"
-                    target="_blank"
-                  >
-                    Gift Card Help
-                  </FindAStore>
+                  <FindAStore href="">Gift Card Help</FindAStore>
                 </Link>
               </Item>
             </List>
@@ -302,30 +225,17 @@ const FooterRight = memo(() => {
           <Itemmargin>
             <Item1>
               <Link>
-                <Stores
-                  href="https://justjeans.jgl.com.au/shop/jj-just-shop"
-                  target="_blank"
-                >
-                  SHOP
-                </Stores>
+                <Stores href="">SHOP</Stores>
               </Link>
               <List>
                 <Item>
                   <Link>
-                    <FindAStore
-                      href="https://justjeans.jgl.com.au/shop/jj-just-shop"
-                      target="_blank"
-                    >
-                      About Jacqui E
-                    </FindAStore>
+                    <FindAStore href="">About Jacqui E</FindAStore>
                   </Link>
                 </Item>
                 <Item>
                   <Link>
-                    <FindAStore
-                      href="https://justjeans.jgl.com.au/shop/jj-just-shop-terms-and-conditions"
-                      target="_blank"
-                    >{`Terms & Conditions`}</FindAStore>
+                    <FindAStore href="">{`Terms & Conditions`}</FindAStore>
                   </Link>
                 </Item>
               </List>
@@ -335,32 +245,17 @@ const FooterRight = memo(() => {
         <List3>
           <Item1>
             <Link>
-              <Stores
-                href="https://justjeans.jgl.com.au/shop/jj-womens-denim-fit-guide"
-                target="_blank"
-              >
-                Denim Fit Guide
-              </Stores>
+              <Stores href="">Denim Fit Guide</Stores>
             </Link>
             <List>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/jj-womens-denim-fit-guide"
-                    target="_blank"
-                  >
-                    Women
-                  </FindAStore>
+                  <FindAStore href="">Women</FindAStore>
                 </Link>
               </Item>
               <Item>
                 <Link>
-                  <FindAStore
-                    href="https://justjeans.jgl.com.au/shop/jj-mens-denim-fit-guide"
-                    target="_blank"
-                  >
-                    Men
-                  </FindAStore>
+                  <FindAStore href="">Men</FindAStore>
                 </Link>
               </Item>
             </List>

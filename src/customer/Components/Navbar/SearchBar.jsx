@@ -152,7 +152,7 @@ const SearchBar = () => {
       <SvgContainer>
         {newUser?.newUser?.userId ? (
           <Avatar
-            className="cursor-pointer hover:bg-gray-900"
+            className=" cursor-pointer hover:bg-gray-900"
             // onClick={handleUserClick}
             onMouseOver={toggleDropdown}
             onClick={toggleDropdown}
@@ -161,6 +161,9 @@ const SearchBar = () => {
               color: "white",
               width: 32,
               height: 32,
+              "@media screen and (max-width: 1024px)": {
+                display: "none",
+              },
             }}
           >
             {
