@@ -69,7 +69,7 @@ const DropDown = styled.div`
 `;
 
 const url =
-  "http://49.206.253.146:2109/childCategories?categoryId=3074457345616679207";
+  "http://106.51.242.196:2109/childCategories?categoryId=3074457345616679207";
 
 const NavigationDropdown = () => {
   const [data, setData] = useState([]);
