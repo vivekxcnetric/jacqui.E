@@ -11,7 +11,7 @@ const HomeCarousel = ({ images }) => {
   const selectedImages = images?.filter(
     (image, index) => index === 1 || index === 5
   );
-  const item = selectedImages.map((item, index) => (
+  const item = selectedImages?.map((item, index) => (
     <img
       className="cursor-pointer"
       // onClick={() => navigate(item.path)}
